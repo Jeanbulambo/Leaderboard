@@ -3,11 +3,19 @@ main {
   display: flex;
   border: 1px solid black;
   width: 60%;
+  border-radius: 12px;
+  background-color: rgb(153, 136, 136);
+  margin-left: 50px;
+  margin-top: 40px;
+  box-shadow: 11px 10px 43px 12px;
+  padding-left: 15px;
 }
 
 h1 {
   color: rgba(12, 11, 11, 0.89);
-  font-size: 30px;
+  font-size: 50px;
+  text-decoration: underline;
+  margin-left: 35%;
 }
 
 .content {
@@ -56,9 +64,10 @@ h2 {
 
 .refresh-btn {
   padding: 4px;
-  border: 1px solid;
+  border: 0;
+  box-shadow: 4px 4px 4px 4px;
   background: bottom;
-  background-color: rgb(165, 161, 161);
+  border-radius: 6px;
 }
 
 .display-section ul li:nth-child(even) {
@@ -93,6 +102,7 @@ input {
   outline: none;
   height: 33px;
   font-size: 16px;
+  border-radius: 7px;
 }
 
 ::placeholder {
@@ -102,8 +112,10 @@ input {
 
 #submit-btn {
   padding: 4px;
+  border: 0;
+  box-shadow: 4px 4px 4px 4px;
   background: bottom;
-  border: 2px solid rgb(78, 77, 77);
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
   align-self: flex-end;
-  background-color: rgb(124, 120, 120);
 }
