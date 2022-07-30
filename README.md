@@ -21,7 +21,7 @@
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
-
+ 
 ### Prerequisites
 install git, node, any code editor in your local machine
 
