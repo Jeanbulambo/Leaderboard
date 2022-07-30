@@ -1,31 +1,31 @@
-import { resolve } from 'path';
-import HtmlWebpackPlugin from 'html-webpack-plugin';
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-export const mode = 'development';
-export const entry = './src/index.js';
-export const devServer = {
-  static: './dist',
-};
-export const plugins = [
-  new HtmlWebpackPlugin({
-    template: './src/index.html',
-  }),
-];
-export const output = {
-  filename: 'main.js',
-  path: resolve(__dirname, 'dist'),
-  clean: true,
-};
-export const module = {
-  rules: [
-    {
-      test: /\.css$/i,
-      use: ['style-loader', 'css-loader'],
-    },
-    {
-      test: /\.js$/,
-      exclude: /node_modules/,
-      use: ['babel-loader'],
-    },
+module.exports = {
+  entry: './src/index.js',
+  mode: 'development',
+  devServer: {
+    static: './dist',
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+    }),
   ],
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: '[name].js',
+    clean: true,
+  },
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
+  },
+  optimization: {
+    runtimeChunk: 'single',
+  },
 };

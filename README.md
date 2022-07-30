@@ -1,9 +1,13 @@
 # Microverse-to-do-list
 
 > The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
+![leaderboard](https://user-images.githubusercontent.com/103334079/181903162-d6495ae7-5607-4bde-ab80-48db13647725.png)
+
+[screenshot](./src/leaderboard.png)
+
 ## Live Demo
 
-[Live Demo Link](link here)
+[Live Demo Link](https://jeanbulambo.github.io/Leaderboard/) 
 
 ## Built With
 
@@ -17,7 +21,7 @@
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
-
+ 
 ### Prerequisites
 install git, node, any code editor in your local machine
 
@@ -42,7 +46,6 @@ npm start
 
 To run the project run the "index.html" file in your browser.
 Or use thte followinglink : git@github.com:Jeanbulambo/Leaderboard.git
-
 
 👤 **Author1**
 
