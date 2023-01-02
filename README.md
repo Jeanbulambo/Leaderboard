@@ -1,5 +1,3 @@
-# Microverse-to-do-list
-
 > The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 ![leaderboard](https://user-images.githubusercontent.com/103334079/181903162-d6495ae7-5607-4bde-ab80-48db13647725.png)
 
