@@ -5,7 +5,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://jeanbulambo.github.io/Leaderboard/) 
+[Live Demo Link](https://wondrous-swan-93d3f1.netlify.app) 
 
 ## Built With
 
